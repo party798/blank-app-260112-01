@@ -30,3 +30,5 @@ st.dataframe(df1["choice"])
 choice_counts = df1["choice"].value_counts()
 st.write("## `choice` 항목별 빈도수")
 st.bar_chart(choice_counts)
+
+st.image("이미지샘플.png", caption="샘플 이미지", use_column_width=True)
